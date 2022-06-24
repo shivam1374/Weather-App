@@ -1,7 +1,7 @@
 const express=require('express')
 const app=express()
 const path=require('path')
-
+const port=process.env.PORT || 3000
 const geocode=require('./util/geocode')
 const forecast=require('./util/forecast')
 
@@ -66,7 +66,7 @@ app.get('*',(req,res)=>
 })
 
 //Listen state of server [should always on]
-app.listen(3000,()=>
+app.listen(port,()=>
 {
-console.log("Server is at Listening state")
+console.log("Server is Listening on port :" +port)
 })
