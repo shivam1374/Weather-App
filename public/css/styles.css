@@ -1,0 +1,32 @@
+body{
+    color: #5a0251;
+    font-weight: 500;
+    font-size: x-large;
+    padding: 0px 2px;
+}
+h1{
+    border-bottom: 1px solid #b4adaa;
+  
+}
+p{
+    color:rgb(28, 14, 110);
+}
+input
+{
+    border:2px solid#141414;
+    padding: 8px;
+}
+button{
+    background-color: #ebb4da;
+    cursor: pointer;
+    padding: 8px;
+}
+
+p1{
+    border-top: 1px solid#c0bbbb;
+    color:#141414;
+    padding: 8px 4px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
