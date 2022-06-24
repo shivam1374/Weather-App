@@ -8,7 +8,7 @@ const geocode= (address,callback)=>
             json:true
             
         },
-        function(error,{body})   //response.body,response.x ,response.y => {body,x,y} //we extracting only body within response object
+        function(error,{body})   
         {
             if(error)
             {

@@ -31,7 +31,7 @@ app.get('/weather',(req,res)=>
             if(error)
             return res.send({error})
             else
-            forecast(data.latitude,data.longitude,(error,forecastData)=>     //forecast->body (body.current ,body.location)
+            forecast(data.latitude,data.longitude,(error,forecastData)=>   
             {
                 if(error)
                 return res.send({
@@ -50,13 +50,6 @@ app.get('/weather',(req,res)=>
             })
 
         })
-
-    // res.send(
-    //     {
-    //         reply:'wait for processing',
-    //         address:req.query.address
-    //     })
-
 })
 
 app.get('*',(req,res)=>
@@ -64,7 +57,6 @@ app.get('*',(req,res)=>
     res.send('404')
 })
 
-//Listen state of server [should always on]
 app.listen(port,()=>
 {
 console.log("Server is Listening on port :" +port)
