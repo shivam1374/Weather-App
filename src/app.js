@@ -7,7 +7,6 @@ const forecast=require('./util/forecast')
 
 //define path for express 
 const dir_path=path.join(__dirname,'../public')
-console.log(dir_path)
 
 app.use(express.static(dir_path))
 

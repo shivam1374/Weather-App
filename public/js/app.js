@@ -24,7 +24,7 @@ WeatherForm.addEventListener('submit',(event)=>
       else
       {
          message_one.textContent='Region:'+data.region+","+data.country
-         message_two.textContent= 'Temperature:'+data.temperature+','+'Weather:'+data.weather
+         message_two.textContent= 'Current Temperature:'+data.temperature+' Degree ,'+'Weather:'+data.weather
       }  
    }
    )
