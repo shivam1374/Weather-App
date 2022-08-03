@@ -4,12 +4,12 @@ body{
     font-size: x-large;
     padding: 0px 2px;
 }
-h1{
+/* h1{
     border-bottom: 1px solid #b4adaa;
-  
-}
+
+} */
 p{
-    color:rgb(28, 14, 110);
+    color:#5a0251;
 }
 input
 {
@@ -24,7 +24,7 @@ button{
 
 p1{
     border-top: 1px solid#c0bbbb;
-    color:#141414;
+    color:#faf4f9;
     padding: 8px 4px;
     position:absolute;
     bottom:0;
