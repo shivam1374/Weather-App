@@ -1,30 +1,29 @@
 body{
-    color: #5a0251;
+    color: #080808;
     font-weight: 500;
     font-size: x-large;
     padding: 0px 2px;
 }
-/* h1{
-    border-bottom: 1px solid #b4adaa;
 
-} */
 p{
-    color:#5a0251;
+    color:#0f0f0f;
 }
 input
 {
     border:2px solid#141414;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 12px;
 }
 button{
     background-color: #ebb4da;
     cursor: pointer;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 12px;
 }
 
 p1{
-    border-top: 1px solid#c0bbbb;
-    color:#faf4f9;
+    border-top: 1px solid#080808;
+    color:#080808;
     padding: 8px 4px;
     position:absolute;
     bottom:0;
